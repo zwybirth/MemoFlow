@@ -4,6 +4,8 @@
 > 
 > Memories Flow, Knowledge Grows
 
+[![GitHub stars](https://img.shields.io/github/stars/zwybirth/MemoFlow?style=social)](https://github.com/zwybirth/MemoFlow/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/zwybirth/MemoFlow?style=social)](https://github.com/zwybirth/MemoFlow/network)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-Compatible-green.svg)](https://openclaw.ai)
