@@ -1,0 +1,91 @@
+# MemoFlow 配置文件
+
+# 系统设置
+system:
+  version: "3.2"
+  auto_save: true
+  auto_recall: true
+  
+# 存储路径
+paths:
+  home: "~/.memoflow"
+  palace: "~/Documents/memoflow"
+  logs: "~/.memoflow/logs"
+
+# 自动保存配置
+auto_save:
+  enabled: true
+  min_length: 10
+  max_length: 2000
+  importance_threshold: 2
+  
+  # 重要性关键词
+  keywords:
+    - "想法"
+    - "思路"
+    - "方案"
+    - "设计"
+    - "计划"
+    - "决定"
+    - "重要"
+    - "关键"
+    - "顿悟"
+    - "突破"
+    
+  # 排除模式
+  exclude_patterns:
+    - "^好的"
+    - "^是的"
+    - "^明白"
+    - "^哈哈"
+
+# 房间配置
+rooms:
+  study:
+    emoji: "📚"
+    keywords: ["技术", "代码", "学习", "知识", "架构"]
+  bedroom:
+    emoji: "🛏️"
+    keywords: ["日常", "情绪", "感受"]
+  living:
+    emoji: "🛋️"
+    keywords: ["闲聊", "轻松"]
+  kitchen:
+    emoji: "🍳"
+    keywords: ["想法", "创意", "灵感", "方案"]
+  garage:
+    emoji: "🔧"
+    keywords: ["工具", "脚本", "配置"]
+  meeting:
+    emoji: "💼"
+    keywords: ["决策", "项目", "讨论", "重要"]
+  studio:
+    emoji: "🎨"
+    keywords: ["设计", "艺术", "视觉"]
+
+# 情绪配置
+emotions:
+  excited:
+    emoji: "😄"
+    keywords: ["太棒了", "完成", "成功", "兴奋"]
+  happy:
+    emoji: "😊"
+    keywords: ["不错", "满意", "愉快"]
+  thinking:
+    emoji: "🤔"
+    keywords: ["思考", "想", "怎么", "为什么"]
+  anxious:
+    emoji: "😰"
+    keywords: ["担心", "焦虑", "困难"]
+  frustrated:
+    emoji: "😤"
+    keywords: ["沮丧", "郁闷", "卡住了"]
+  insight:
+    emoji: "💡"
+    keywords: ["顿悟", "突然想到", "明白"]
+  creative:
+    emoji: "🎨"
+    keywords: ["创意", "设计", "新颖"]
+  calm:
+    emoji: "😌"
+    keywords: ["平静", "淡定", "了解"]
